@@ -1,0 +1,116 @@
+1.
+	-> HTML foi criado em 1991, Tim Berners-Lee.
+	-> Desde 91, existiram 5 versões.
+	-> O elemento é a base do HTML.
+	-> Tudo dentro de um arquivo HTML é um elemento.
+	-> O elemento começa com uma tag de abertura com o tipo de elemento, essa tag pode ter um atributo.
+	-> Depois temos o conteúdo e, por fim, a tag de fechamento.
+	-> Estrutura básica:
+
+		<!DOCTYPE html>
+		<html>
+		 <head>
+		  <meta>
+		  <title></title>
+		 </head>
+		 <body>
+		 </body>
+		</html>
+
+	-> A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela.
+	   E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang,
+           para o português brasileiro usamos pt-BR.
+	-> A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é
+	   o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script,
+	   o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da
+	   página com a tag title.
+	-> E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
+
+2.
+	-> <section>: representa uma seção genérica de conteúdos.
+	-> <header>: pode ser o cabeçalho da página ou de alguma parte da página.
+	-> <article>: representa um conteúdo relevante dentro da sua página.
+	-> <aside>: representa um conteúdo relacionado ao conteúdo principal da página. Normalmente representado por uma barra lateral.
+	-> <footer>: pode ser o rodapé da página ou de parte da página.
+	-> <h1>-<h6>: representam a importância de um título dentro da página. Só pode haver 1 <h1> por página.
+
+3.
+	-> A criação do HTML foi motivada para compartilhar textos e documentos.
+	-> <p>Conteúdo do artigo.</p>	<p> representa um parágrafomas ele não suporta apenas texto, podemos adicionar imagens,
+	                                código, vídeos e vários outros tipos de conteúdo dentro dele.
+	-> <a>Link</a>	<a> é uma âncora.
+	-> <a href="linkedin.com/in/felipe-camur%C3%A7a-torquato-5a3518237/">LinkedIn</a>	href é o hiperlink pra onde sua âncora está apontando.
+	-> <a href="mailto:felipectorquato1@gmail.com">E-mail</a>	mailto e tel.
+	-> <a target="_blank">Link</a>	serve para indicar como esse link vai ser aberto.
+
+4.
+	-> Elemento img para representar imagens. Elemento sem tag de fechamento.
+	-> <img>
+	-> <img src="img/avatar.jpg">	é obrigatório e guarda o caminho da imagem.
+	-> <img alt="Foto de Felipe Torquato">	mesmo não sendo obrigatório, é altamanete recomandado para melhorar a sensibilidade. Mostra a descrição
+						da foto quando não é carregada.
+	-> https://tinypng.com/
+
+5.
+	-> Listas: ul, ol, li.
+	-> Servem para agrupar coleções de itens.
+	-> <ul>	representa uma lista em que a ordem dos elementos não é importante.
+	   Item 1
+	   Item 2
+	-> <ol> a ordem dos itens é importante.
+	   1. Item 1
+	   2. Item 3
+	-> <li> é um item dessa lista.
+
+6.
+	-> Objetivos:
+		1. O que são seletores?
+		2. Conceitos básicos.	
+		3. Principais seletores.
+	-> Em 1996, foi criada a linguagem de estilo CSS.
+	-> "Você cria regras de estilo para elementos ou grupos de elementos."
+	-> Uma regra CSS é formada por um seletor ou grupo de seletores, e dentro de um par de chaves temos as declarações.
+	-> Uma declaração é formada por uma propriedade e uma valor.
+	-> Id e class.
+	-> Uma classe é precedida por um "." e um id é precedido por um "#".
+	-> Um id só pode ser usado uma vez na página.
+	-> Boxmodel: margin, border, padding e content.
+		-> Margin: Espaçamentos entre elementos.
+		-> Border: Fica em volta do padding e do content. Conseguimos alterar a aparência dela, como largura e cor.
+		-> Padding: Espaçamento entre a borda e o conteúdo.
+		-> Content: O que seu bloco representa (um texto, imagem ou vídeo).	
+
+7.
+	-> Podemos atribuir diferentes valores para cada lado do padding.
+	-> Ex.: padding: 15px, 10px, 5px, 0;
+		15 pixels para o topo, 10 pixels para a direitas, 5 pixels para a parte inferior e 0 para a esquerda.
+	-> Background: colocar o nome da cor, usar o hexadecimal.
+	-> Border:
+		Largura: pixels, centímetros, milímetros...
+		Cor: blue, #0000ff...
+		Estilo: sólida, pontilhada, tracejada...
+	-> border-width, border-color e border-style.
+	-> Regras mais específicas.
+	-> Border-radius: permite arredondar os cantos de um elemento.
+		border-radius: 10px;
+		border-radius: 50%;
+		border-radius: 10% 20%;
+		border-radius: 10% 20% 15% 22%;
+	-> font-family: altera a fonte do texto.
+	-> font-size: altera o tamanho do texto.
+	-> font-style: altera a aparência do texto.
+	-> font-weight: altera o peso do texto;
+	-> text-transform: alterna o texto entre maiúsculas e minúsculas.
+	-> text-decoration: serve pra dar destaque ao texto.
+	-> list-style-type: alterar o marcador das listas.
+		list-style-type: square;
+		list-style-type: upper-roman;
+		list-style-type: "\1F44D";
+	-> list-style-image: usar uma imagem como marcador.
+		list-style-image: url("rocket.png");
+
+8.
+	-> Width e Height: servem para ajustar a largura e a altura.
+	-> Max-width e max-height: largura máxima e altura máxima que os elementos podem ter.
+	-> Margin: espaçamento entre elementos.
+	-> Text align: alinhar textos.
