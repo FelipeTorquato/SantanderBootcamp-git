@@ -1,0 +1,48 @@
+1.
+    -> Características básicas:
+        • Interpretada.
+        • Baseada em protótipos.
+        • Multiparadigma.
+        • Comumente utilizada em aplicações web client-side.
+        • Segue o padrão ECMAScript.
+    -> Aplicações:
+        • Web.
+        • Mobile.
+        • Smartwatches.
+        • Games.
+        • Internet of Things.
+        • APIs.
+
+2.
+    -> Objetivos:
+        1. Se familiarizar com a sintaxe da linguagem.
+        2. Entender a diferença entre variável e constante.
+        3. Ser capaz de comentar seu código.
+
+3.
+    -> Objetivos:
+        1. Aprender a utilizar o console em uma página web.
+        2. Aprender a utilizar o console no terminal.
+
+4.
+    -> Objetivos:
+        1. Se familiarizar com uma estrutura de projeot simples.
+        2. Aprener a interagir com elementos HTML no DOM.
+    -> DOM
+        • Document Object Model.
+        • Estrutura dos elementos dentro da janela.
+
+5.
+    -> Objetivos:
+        1. Criar seu primeiro componente dinâmico.
+        2. Introdução a eventos.
+
+6.
+    -> Objetivos:
+        1. Entender as exigências do mercado de trabalho.
+        2. Saber onde encontrar oportunidades.
+    -> Frameworks e bibliotecas:
+        • VueJS
+        • Angular
+        • React
+        • jQuery
