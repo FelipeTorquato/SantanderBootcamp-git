@@ -1,0 +1,47 @@
+1.
+    -> Objetivo do curso:
+        Explicar as principais estruturas de dados do Javascript, como utulizá-las e suas possibilidades.
+    -> Camel Case e Upper Case Snake Case.
+    -> Let (Escopo de bloco).
+    -> Var (Escopo global se estiver fora de função).
+    -> Hoisting: atribuir um valor a uma variável antes de declarar ela. (var)
+    -> Redeclaração (var)
+    -> Reatribuição
+    -< Constantes
+        • Declarada em SNAKE_UPPER_CASE.
+        • Escopo de bloco.
+        • Não faz Hoisting.
+    
+                        var           const     let
+    escopo         global ou local    bloco    bloco
+    
+    redeclarar          sim           não       não
+
+    reatribuir          sim           não       sim
+
+    hoisting            sim           não       não
+
+2.
+    -> Javascript é uma linguagem de tipagem dinâmica e fracamente tipada. Ou seja, antes de declarar um valor, você não especifíca o tipo dele.
+    -> Tipos de dados
+        -> Primitivos:
+            • numbers.
+            • strings.
+            • boolean.
+            • null.
+            • undefined.
+        -> Não-Primitivos:
+            • objects.
+            • arrays.
+    -> Strings
+        • Comumente utilizadas para textos.
+        • Valores declarados entre aspas ou crases.
+    -> Numbers
+        • Números inteiros ou decimais.
+        • Biblioteca Math.
+    -> Boolens
+        • True or false.
+    -> Arrays
+        • Lista iterável de elementos.
+    -> Objetos
+        • Estrutura do tipo "chave e valor".
