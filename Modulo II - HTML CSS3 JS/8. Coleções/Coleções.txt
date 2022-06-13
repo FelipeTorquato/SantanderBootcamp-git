@@ -1,0 +1,30 @@
+1.
+    -> Objetivos do curso
+        1. Apresentar o objeto Map
+        2. Apresentar o objeto Set
+    -> Map
+        Características:
+            - Uma coleção de arrays no formato [chave, valor]
+            - Pode ser iterado num loop for...of
+        Métodos:
+            Adicionar: .set()
+            Ler: .get()
+            Deletar: .delete()
+        Map vs Objeto
+            - Maps podem ter chaves de qualquer tipo
+            - Maps possuem a propriedade length
+            - Maps são mais fáceis de iterar
+            - Utilizado quando o valor das chaves é desconhecido
+            - Os valores tem o mesmo tipo
+
+2.
+    -> Set
+        Sets são estruturas que armazenam apenas valores únicos
+        Métodos:
+            Adicionar: .add()
+            Consultar: .has()
+            Deletar: .delete()
+        Set vs Array
+            - Possui valores únicos
+            - Em vez de propriedade length, consulta-se o número de registros pela propriedade size
+            - Não possui os métodos map, filter, reduce etc.
