@@ -1,0 +1,17 @@
+1.
+    -> Objetivo do Curso
+        1. Demonstrar a utilização de três métodos importantes para Arrays.
+    -> Map
+        - Cria um novo array
+        - Não modifica o array original
+        - Realiza as operações em ordem
+
+2.
+    -> Filter
+        - Cria um novo array
+        - Não modifica o array original
+        - Retorna uma lista apenas com os elementos que passaram pelo filtro
+
+3.
+    -> Reduce
+        - Executa uma função em todos os elementos do array, retornando um valor único
