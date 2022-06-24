@@ -1,0 +1,18 @@
+1.
+    -> Objetivos do curso
+        1. Mostrar como lidar com erros e exceções
+        2. Ensinar como criar seu próprio erro personalizado
+    -> ECMAScript Error
+        Erros que ocorrem em tempo de execução
+        Mensagem, nome, linha, call stack
+    -> DOMException
+        Erros relacionados ao Document Object Model (DOM);
+
+2.
+    -> Objetivos
+        1. Explicar a diferença entre "throw" e "return"
+        2. Apresnetar a implementação da declaração try/catch
+    -> Try/catch e Finally
+
+3.
+    -> Error
