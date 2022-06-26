@@ -1,0 +1,31 @@
+1.
+    -> Objetivos do curso
+        1. Explicar o conceito de assincronicidade
+        2. Apresentar Promises
+        3. Ensinar como fazer requisições de APIs
+    -> Assincronicidade
+        Assíncrono: que não ocorre ou não se efetiva ao mesmo tempo.
+        O Javascript roda de maneira síncrona.
+    -> Promises
+        Objeto de processamento assíncrono.
+        Inicialmente, seu valor é desconhecido. Ela pode, então, ser resolvida ou rejeitada.
+        3 estados:
+            1) Pending
+            2) Fulfilled
+            3) Rejected
+    -> Async/await
+        Funções assíncronas precisam dessas duas palavras chaves.
+        Funções assíncronas também retornam promises.
+
+2.
+    -> Objetivos
+        1. Explicar o que são APIs
+        2. Ensinar como lidar com requisições dessas APIs
+        3. Apresentar o método fetch()
+    -> API
+        Application Programming Interface
+        Uma API é uma forma de intermediar os resultados do back end com o que é apresentado no front-end
+        Você consegue acessá-la por meio de URLs.
+        JSON: Javascript Object Notation
+        É muito comum que APIs retornem seus dados no formato .json, portanto presisamos tratar esses dados quando os recebermos.
+    -> fetch
