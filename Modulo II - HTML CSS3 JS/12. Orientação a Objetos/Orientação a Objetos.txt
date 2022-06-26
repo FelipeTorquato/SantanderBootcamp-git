@@ -1,0 +1,21 @@
+1.
+    -> Objetivos do curso
+        1. Explicar o conceito de Orientação a Objetos
+        2. Apresentar seus principais pilares
+        3. Explicar como o Javascript lida com esse paradigma
+    -> Paradigmas: "formas de programar"
+    -> Os programas são "objetos" que possuem uma série de propriedades.
+        Pilares:
+            - Herança
+            - Polimorfismo
+            - Encapsulamento
+            - Abstração
+
+2.
+    -> Protótipos
+        Todos os objetos em Javascript herdam propriedadese métodos de um prototype.
+        O objeto Object.prototype está no topo desta cadeia.
+        Cadeia de protótipos
+    -> Classes
+        Javascript não possui classes nativamente. Todas as classes são objetos e a herança se dá por protótipos.
+        Constructor, getters e setters, super() e métodos.
