@@ -1,0 +1,47 @@
+1.
+    -> Objetivos do curso
+        1. Explicar o que é o DOM
+        2. Esclarecer as diferenças entre o DOM e o BOM
+        3. Principais métodos para manipular páginas da web
+    -> DOM
+        Document Object Model
+        O DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+    -> DOM vs BOM
+        BOM: Browser Object Model
+            Tudo o que está dentro do objeto window.
+
+2.
+    -> Métodos
+        Selecionando os elementos de uma página
+            document.getElementById()
+            document.getElementsByTagName()
+            document.getElementsByClassName()
+            document.querySelectorAll()
+        Adicionar e deletar
+            document.createElement(element)
+            document.removeChild(element)
+            document.appendChild(element)
+            document.replaceChild(new, old)
+
+3.
+    -> Estilos
+        Element.classList
+            add, remove, toggle
+        Acessando diretamente o CSS de um elemento
+            document.getElementsByTagName().style
+
+4.
+    -> Eventos
+        São qualquer tipo de ação que o usuário faz numa página da web.
+    -> Tipos
+        Eventos de mouse:
+            mouseover, mouseout
+        Eventos de clique:
+            click, dbclick
+        Eventos de atualização:
+            change, load
+    -> Adicionando eventos
+        Event Listener
+            Diretamente do Javascript, cria um evento que vai ser acionado no momento em que o usuário realizar determinada ação.
+        Atributo HTML
+            Especifica a função a ser chamada diretamente no elemento HTML
