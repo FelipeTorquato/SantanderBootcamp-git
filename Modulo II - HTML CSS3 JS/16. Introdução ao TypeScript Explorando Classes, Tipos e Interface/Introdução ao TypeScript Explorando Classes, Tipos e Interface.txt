@@ -1,0 +1,12 @@
+1.
+    -> Typescript
+        Funciona como uma função do Javascript.
+        Adiciona checagem de tipos e outras features que o Javascript não oferece nativamente.
+        Facilita a vida do programador.
+        Oferecem ferramentas que evitam de escrever muito código.
+        Acelera o processo de desenvolvimento.
+    -> Tipar as nossas variáveis e os parâmetros das nossas funções
+    -> Types e interfaces
+        Types: fazer junções das interfaces.
+        Interfaces: um contrato pra você implementar as suas classes, definir contrato de estruturas de dados ou classe.
+        
