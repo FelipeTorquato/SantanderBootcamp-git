@@ -1,0 +1,74 @@
+1.
+    -> Arquitetura de componentes
+        A arquitetura de componentes baseia-se na construção de componentes independentes, substituíveis e modulares
+        que auxiliem no gerenciamento da complexidade e encorajem a reutilização.
+        Seus benefícios incluem:
+            • Escabilidade
+            • Manutenção
+            • Performance
+    -> Serviços
+        • Responsáveis por organizar e compartilhar lógica de negócios.
+        • Reutilizáveis entre diferentes componentes de uma aplicação.
+        • Mandatórios para uma arquitetura modular e reutilizável.
+    -> Injeção de dependência
+        Todo serviço é uma dependência que precisa ser instanciada dentro do componente para ser utilizada pelo mesmo.
+        No angular, o componente pede para aplicação quais dependências ele precisa e então as injeta dentro de si.
+    -> Ciclo de vida do componente
+        Todo componente possui seu ciclo de vida (normalmente chamado de lifecycle hooks), que começa assim que o Angular
+        o instancializa na aplicação e através deles é possível executar diferentes lógicas nos vários estágios de um componente.
+    -> Constructor vs ngOnInit
+        Constructor:
+            • Deve ser utilizado apenas para inicializar serviços injetados via DI (injeção de dependência).
+        ngOnInit:
+            • Deve ser utilizado para todo tipo de lógica que o componente precisar executar após ter sido criado.
+    -> Data Binding
+        A forma como associamos informações que estão no componente para o template e vice-versa.
+        String Interpolation: {{ valor }}
+            • associa informação do componente para o template (HTML).
+        Property Binding: [propriedade]="valor“
+            • associa informação do componente para propriedades do template (HTML).
+        Event Binding: (evento)="handler"
+            • associa informação do template (HTML) para o componente.
+        Two-Way Data Binding: [(ngModel)]="propriedade]
+            • associa informação entre ambos, ou seja, mantém ambos atualizados (componente e template (HTML).
+    -> @Input()
+        Pai → Filho:
+        Principal maneira de compartilhar dados do pai para filho.
+    -> @Output() e EventEmitter
+        Filho → Pai:
+        Principal maneira de compartilhar dados do filho para o pai:
+
+2.
+    -> Componentes apresentacionais
+        • Parecido com funções puras
+        • Se preocupam apenas com a interface do usuário
+        • Não ficam responsáveis por recuperar dados ou lidar com lógica de negócio
+        • Não causam efeitos colaterais na aplicação
+        • Recebem dados via @Input e emite eventos via @Output
+    -> Componentes inteligentes
+        • Parecido com funções impuras
+        • Contém toda a lógica de negócio
+        • São internamente compostos por componentes apresentacionais
+        • Ficam responsáveis por repassar os dados para os componentes apresentacionais apresentaram ao usuário final
+    -> Design Modular
+        Divisão da aplicação web em módulos de recursos que representam diferentes funcionalidades de negócios.
+        Core Module: define serviços singleton, componentes de instância única, configuração e exportação de quaisquer módulos de
+                    terceiros necessários no módulo principal (App Module).
+        Shared Module: contém componentes/pipes/diretivas comuns e também exporta módulos do Angular usados com frequência
+                    (CommonsModule).
+        Feature Module: organiza um conjunto de recursos da aplicação num módulo de funcionalidade.
+        Library: possui código que pode ser reutilizável entre diferentes aplicações.
+        Angular Element: recurso do angular para criar web components, padrão da web para definir novos elementos HTML de uma maneira independente de
+                    estrutura e agnóstica de frameworks.
+
+3.
+    -> SMACSS
+        SMACSS é uma arquitetura modular e escalável para CSS, dividida em 5 camadas. Sendo elas:
+            • Base: estilização de seletores e pseudo-classes, além de resets
+            • Layout: principais componentes como cabeçalho, rodapé, entre outros.
+            • Module: componentes reutilizáveis como botões e ícones.
+            • State: todo elemento que será modificado ou terá alguma alteração no seu estado inicial.
+            • Theme: temas específicos para uma mesma aplicação.
+    -> BEM CSS
+        A sigla BEM significa block, element, modifier (bloco, elemento e modificador), sendo uma metodologia que segue esses conceitos para
+        definir uma nomenclatura de nomes para classes CSS.
