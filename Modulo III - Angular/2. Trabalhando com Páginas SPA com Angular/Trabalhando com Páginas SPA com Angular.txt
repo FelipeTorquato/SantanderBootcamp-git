@@ -1,0 +1,35 @@
+1.
+    -> Angular é um Framework que possibilita construir aplicações Web baseadas em HTML 5, CSS e JavaScript.
+    -> Ele permite organizar essas tecnologias e entregar uma aplicação que executa no Browser, capaz de consumir um ou vários serviços disponibilizados por um servidor.
+    -> Angular Material
+    -> app.module.ts é o módulo raiz da nossa aplicação.
+    -> app-routing.module.ts é responsável por mapear as rotas.
+    -> Data Binding
+        É uma forma de associarmos informações que estão no componente para o template e vice versa.
+        4 formas:
+            Interpolação: {{ valor }}: associa informação do componente para o template (HTML).
+            Property Binding: [propriedade]="valor": associa informação do componente para o template (HTML).
+            Event Binding: (evento)="handler": associa informação do template (HTML) para o componente.
+            Two-Way Data Binding: [(ngModel)]="propriedade": associa informação entre ambos, ou seja, mantém ambos atualizados (componente e template (HTML).
+        O Event Biding consiste em permitir que você escute e responda às ações do usuário, como pressionamentos de tecla, movimentos do mouse e cliques.
+            Ex: <button (click)="onSave()">Save<button>
+            A associação de evento escuta os eventos de clique do botão e chama o onSave() método do componente sempre que ocorre um clique.
+    -> Diretivas: ngIf / ngFor
+        As diretivas são marcadores em um elemento DOM (como um atributo) que informam ao Angular para anexar um comportamento especificado a um elemento existente.
+        ngIf: Esta é uma diretiva que você adiciona a um elemento na marcação, geralmente para um elemento de contâiner como um div.
+        ngFor: Esta é uma diretiva para processar cada item de um objeto iterável, gerando uma marcação para cada um.
+               Ela é conhecida como uma diretiva estrutural porque pode alterar o layout do DOM adicionando e removendo elementos DOM de visualização.
+    -> Event Emitter
+        Input Property - @Input(): Você irá utilizá-lo quando quiser receber dados de um componente pai.
+        Output Property - @Output(): Você irá utilizá-lo quando quiser enviar dados de um componente filho para um componente pai.
+    -> Observable
+        Um Observable, por definição, é uma coleção que funciona de forma unidirecional, ou seja, ele emite notificações sempre que ocorre uma mudança em um de seus itens e
+        a partir disso podemos executar uma ação.
+    -> Life Cycle hooks
+        Cada componente no Angular possui um conjunto de Eventos de Ciclo de Vida, eles ocorrem quando o componente é criado, renderizado, tem
+        o valor de suas propriedades alteradas, ou quando ele é destruído.
+        Quando um desses eventos é chamado, o Angular invoca uma série de métodos que são executados imediatamente.
+    -> Constructor X NgOnInit:
+        De um modo geral, o constructor vai construir tudo que você precisa antes de iniciar um componente.
+        Já no caso do NgOnInit, ele é chamado toda vez que iniciamos um componente, facilitando assim a chamada de métodos que precisamos que sejam executados assim que o componente for chamado.
+    
