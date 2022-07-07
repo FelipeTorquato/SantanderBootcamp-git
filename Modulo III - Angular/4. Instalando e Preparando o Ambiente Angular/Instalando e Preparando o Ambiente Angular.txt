@@ -1,0 +1,19 @@
+1.
+2.
+    -> Estrutura
+        • e2e - Responsavel por testes End-To-End no angular.
+        • node_modules - Responsável por armazenar as dependências e pacotes do projeto.
+        • src - Diretório da aplicação, onde nós criamos os nossos módulos, componentes, rotas, serviços e tudo que fizer
+        parte da aplicação.
+        • browserlistrc - Usado pelo sistema de build para ajustar a saída CSS e JS para suportar os navegadores listados.
+        • .editorconfig - configurações do editor de código.
+        • .gitignore - Arquivo do git que utilizamos para o gerenciamento dos arquivos que serão ignorados no momento do nosso commit.
+        • angular.json - Arquivo de configuração do angular.
+        • karma.config.js - Configurações do karma para teste unitário.
+        • package-lock.json - Lista de dependências e sub-dependências.
+        • package.json - configurações das dependências e scripts do npm.
+        • README.md - Arquivo Markdown para documentação da nossa aplicação.
+        • tsconfigs e tslint - Arquivos de configuração do Typescript.
+    -> Netlify
+    -> Link slides: https://drive.google.com/file/d/1BUpsOkC8EmtaoenRVw4tifytnJ3acg6n/view
+    -> Repositório do curso: https://github.com/ivosoares/ambiente-angular
