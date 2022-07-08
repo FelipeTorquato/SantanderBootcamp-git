@@ -23,13 +23,11 @@
   <li class="list-group-item" *ngSwitchDefault>ESSE É O DEFAULT</li>
 </ul>
 
-<ul class="list-group mx-auto my-3 col-3">
-  <li class="list-group-item" *ngFor="let pessoa of pessoas">O nome da pessoa é {{ pessoa.nome }} {{ pessoa.sobrenome }}.</li>
-</ul>
+<app-list-people></app-list-people>
 
-<ul class="list-group mx-auto my-3 col-3">
+<ul class="list-group mx-auto my-3 col-5">
   <ng-template ngFor let-pessoa [ngForOf]="pessoas">
-    <li class="list-group-item">O nome da pessoa é {{ pessoa.nome }} {{ pessoa.sobrenome }}.</li>
+    <li class="list-group-item">O nome da pessoa é {{ pessoa.firstName }} {{ pessoa.lastName }} e ela tem a idade {{ pessoa.age }}.</li>
   </ng-template>
 </ul>
 <div class="col-4 mx-auto my-3">
@@ -40,4 +38,13 @@
 <div class="col-4 mx-auto">
   <input type="text" class="form-control" placeholder="Digite alguma coisa" [(ngModel)]="text">
   <h4>Saida: {{ text }}</h4>
+</div>
+
+<div class="container my-5">
+  <div class="row d-flex align-items-center justify-content-center">
+    <h2 class="text-center">LISTAGEM DE PERSONAGEMS RICK AND MORTY </h2>
+    <div class="col-12">
+      <app-list-api></app-list-api>
+    </div>
+  </div>
 </div>

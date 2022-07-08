@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PeopleService } from './shared/services/people.service';
 
 @Component({
   selector: 'app-root',
@@ -6,33 +7,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   count = 0;
   nome = "Felipe Camurça Torquato";
   text = "";
 
   pessoas = [
     {
-      nome: "Felipe",
-      sobrenome: "Camurça"
-    },
-    {
-      nome: "Maria",
-      sobrenome: "Silva"
-    },
-    {
-      nome: "João",
-      sobrenome: "Pereira"
-    },
-    {
-      nome: "Márcio",
-      sobrenome: "Santos"
+      firstName: "",
+      lastName: "",
+      age: 0
     }
   ];
 
-  constructor() { }
+  constructor(private peopleService: PeopleService) {
+
+  }
 
   ngOnInit(): void {
-    console.log(this.pessoas);
+    this.getPeople();
     let interval = setInterval(() => {
       this.count++;
       if (this.count === 10) {
@@ -44,4 +39,11 @@ export class AppComponent implements OnInit {
   clicou(nome: string) {
     console.log("Clicou em mim", nome);
   }
+
+  getPeople() {
+    this.peopleService.getPeople().subscribe(people => {
+      this.pessoas = people;
+    });
+  }
+
 }
