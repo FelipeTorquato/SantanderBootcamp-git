@@ -1,0 +1,9 @@
+1.
+    -> Diretivas
+        • Diretivas de atributos:
+            Alteram a aparência ou o comportamento de um elemento, componente ou outra diretiva, como por exemplo,
+            NgClass e NgStyle.
+        • Diretivas estruturais:
+            Modificam o layout adicionando ou removendo elementos do DOM, como por exemplo, NgIf e NgFor.
+    -> Slides curso: https://drive.google.com/file/d/15eBGTxkQFwICWfCRO_I0H4uWIoY4fgQx/view
+    -> Repositório curso: https://github.com/ivosoares/ambiente-angular
