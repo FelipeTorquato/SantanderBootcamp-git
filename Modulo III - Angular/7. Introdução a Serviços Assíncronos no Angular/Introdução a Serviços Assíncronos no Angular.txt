@@ -1,0 +1,4 @@
+1.
+    -> HttpClient
+        O HttpClient é usado para fazer a comunicação entre cliente e servidor usando o protocolo HTTP.
+    -> Github do curso: https://github.com/ivosoares/crud-dio-angular
