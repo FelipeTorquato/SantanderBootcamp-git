@@ -1,0 +1,11 @@
+1.
+  -> Componentes
+    Os Componentes são blocos que sozinhos tem um sentido, eles podem ser únicos, ou um conjunto de vários
+    outros componentes.
+    Quando nos utilizamos da componentização, temos bastante ganhos, dos quais podemos citar: a reutilização
+    de trechos de códigos; isolamento de contexto; legibilidade do código; redução de código e a padronização do projeto.
+  -> Componentes Angular
+    • Metadata: são definições que iremos informar ao Angular que a nossa classe é um Commponent,
+                por meio de decorators, nesse caso @Component.
+    • Classe: assim como em qualquer linguagem de programação que utiliza o paradigma da orientação
+              a objeto, possui suas propriedades e métodos.
