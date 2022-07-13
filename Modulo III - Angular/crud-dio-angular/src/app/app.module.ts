@@ -19,7 +19,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { DataBindingComponent } from './pages/data-binding/data-binding.component';
 import { ButtonComponent } from './components/button/button.component';
-import { LifeCycleComponent } from './components/life-cycle/life-cycle.component'
+import { LifeCycleComponent } from './components/life-cycle/life-cycle.component';
+import { PipesExampleComponent } from './pages/pipes-example/pipes-example.component'
+import { UpperCasePipe } from '@angular/common';
+import { PrintlistPipe } from './printlist.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,9 @@ import { LifeCycleComponent } from './components/life-cycle/life-cycle.component
     TodoItemComponent,
     DataBindingComponent,
     ButtonComponent,
-    LifeCycleComponent
+    LifeCycleComponent,
+    PipesExampleComponent,
+    PrintlistPipe
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,7 @@ import { LifeCycleComponent } from './components/life-cycle/life-cycle.component
     MatButtonModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [UpperCasePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
