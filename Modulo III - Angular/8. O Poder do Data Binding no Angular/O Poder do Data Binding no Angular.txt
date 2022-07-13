@@ -1,0 +1,10 @@
+1.
+  -> Interpolação: {{ valor }}
+    associa informação do componente para o template (HTML)
+  -> Property Binding: [propriedade]="valor"
+    associa informação do componente para o template (HTML)
+  -> Event Binding: (event)="handler"
+    associa informação do template (HTML) para o componente
+  -> Two-Way Data Binding: [(ngModel)]="propriedade"
+    associa informação entre ambos, ou seja, mmantém ambos atualizados (componente e template (HTML))
+    
