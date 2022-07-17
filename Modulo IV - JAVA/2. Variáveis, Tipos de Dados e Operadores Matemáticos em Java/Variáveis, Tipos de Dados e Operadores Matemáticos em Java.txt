@@ -1,0 +1,44 @@
+1.
+  -> O que é uma variável?
+    "Um espaço na memória do computador, onde se pode guardar valores"
+    Existem 4 tipos:
+      Instância: objeto
+      Classe: classe
+      Local: dentro de métodos
+      Parâmetro: na assinatura do método
+  -> Padrão de definição
+    <?visibilidade?> <?modificador?> tipo nome <?=valorInicial?>/
+    V: "public", "protected" e "private"
+    M: "static" e "final"
+    T: tipo de dado
+    N: nome que é fornecido a variável
+    VI: um valor inicial, caso se deseje
+
+2.
+  -> Tipos de dados
+    "São os valores e consequentemente operações que as variáveis podem assumir e sofrer, respectivamente."
+    Tipificação:
+      Estática(forte) vs Dinâmica(fraco)
+      Primitivo vs Composto
+    Opções de tipos:
+      Textual
+      Numeral
+      Lógico
+      Objeto
+
+3.
+  -> Operador Aritmético
+    "São símbolos especiais quais são capazes de realizar ações específicas em um, dois ou mais operandos e,
+    em seguida, retornar um resultado."
+    Tipos:
+      pós-fixado: exp++ ou exp--
+      prefixado: ++exp ou --exp
+      aritmético: +, -, *, / e %
+      atribuição: =, +=, -=, *=, /= e %=
+
+4.
+  -> Casting
+    "É a transformação de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa."
+    Tipos:
+      Upcast (implícito)
+      Downcast (explícito)
