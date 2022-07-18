@@ -1,0 +1,64 @@
+1.
+  -> Operadores Relacionais
+    "São símbolos especiais quais são capazes de realizar comparações entre determinados operandos
+    e, em seguida, retornar um resultado."
+    Tipos:
+      Similaridade: igual, diferente
+      Tamanho: maior, maior igual, menor, menor igual
+  -> Utilização
+    Similaridade
+      Simbologia
+        Igualdade: ==
+        Diferença: !=
+    Tamanho
+      Simbologia
+        Maior: >
+        Maior igual: >=
+        Menor: <
+        Menor igual: <=
+
+2.
+  -> Operadores Lógicos
+    "São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou
+    expressões e, em seguida, retornar um resultado."
+    Tipos:
+      Conjunção
+      Disjunção
+      Disjunção exclusiva
+      Negação
+    -> Conjunção
+      Simbologia
+        &&
+      Terminologia
+        and
+    -> Disjunção
+      Simbologia
+        ||
+      Terminologia
+        or
+    -> Disjunção exclusiva
+      Simbologia
+        ^
+      Terminologia
+        xor
+    -> Negação
+      Simbologia
+        !
+      Terminologia
+        inversão
+
+3.
+  -> Estruturas de controle
+    "São estruturas que tem a capacidade de direcionar o fluxo de execução do código"
+    Tipos:
+      Decisão: if, if-else, if-else-if, switch e operador ternário
+      Repetição: for, while, do while
+      Interrupção: break, continue e return
+
+4.
+  -> Bloco
+    "É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação."
+    Tipos:
+    Locais: dentro de métodos
+    Estáticos: dentro de classes
+    Instância: dentro de classes
